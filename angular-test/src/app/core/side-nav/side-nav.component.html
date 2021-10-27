@@ -1,0 +1,14 @@
+<div class="side-menu-container">
+    <mat-selection-list  #shoes role="list" [multiple]="false" class="selection-list-container">
+        <mat-list-option class="brand-head">
+            <img class="banner-image" src="../../../assets/img/header-logo-removed-bg.png">
+        </mat-list-option>
+        <mat-list-option *ngFor="let sideMenu of sideMenus" class="option-container">
+            <a (click)="navigateRoute(sideMenu)"  class="menu-container">
+                <mat-icon>{{sideMenu.icon}}</mat-icon>
+                <span class="txt">{{sideMenu.displayValue}}</span>
+            </a>
+        </mat-list-option>
+    </mat-selection-list>
+</div>
+

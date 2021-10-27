@@ -1,0 +1,53 @@
+.sales-activity-header {
+    padding-left: 1%;
+    margin-bottom: 1%;
+    font-size: 20px;
+    font-weight: 500;
+}
+.salesactivity-container {
+    display: flex;
+    justify-content: center;
+    .custom-card {
+        margin-right: 2%;
+        width: 20%;
+        border-radius: 0px;
+    }
+    .lower-record {
+        display: flex;
+        font-size: 12px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .upper-record {
+        margin-bottom: 5px;
+        display: flex;
+        .upper-record-number {
+            position: absolute;
+            right: 20px;
+            font-size: 36px;
+        }
+        .upper-left-record {
+            display: flex;
+            .upper-icon {
+                position: relative;
+                top: 2px;
+                color: rgb(79, 82, 79);
+                font-size: 24px;
+                align-items: center;
+                height: 30px;
+                width: 30px;
+            }
+            .upper-left-txt {
+                position: relative; top: 5px;
+                color: rgb(79, 82, 79);
+            }
+        }
+    }
+    .lower-icon {
+        color: green;
+        font-size: 18px;
+        align-items: center;
+        height: 20px;
+        width: 20px;
+    }
+}

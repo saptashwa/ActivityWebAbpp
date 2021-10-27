@@ -1,0 +1,10 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+::ng-deep .mat-toolbar-row, .mat-toolbar-single-row {
+    height: 45px;
+}
+
+.sub-header-button {
+    color: #787676 !important;
+}

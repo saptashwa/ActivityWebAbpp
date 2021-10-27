@@ -1,0 +1,21 @@
+<div class="sales-activity-header">
+    <span>Sales Activity ({{totalActivity}})</span>
+</div>
+<div class="salesactivity-container">
+    <ng-container *ngFor="let salesActivity of salesActivityList">
+        <mat-card class="custom-card">
+            <div class="upper-record">
+                <div class="upper-left-record">
+                    <mat-icon  class="upper-icon">check_circle</mat-icon>
+                    <span class="upper-left-txt">{{salesActivity.orderState}}</span>
+                </div>
+                <span class="upper-record-number">{{salesActivity.count}}</span>
+            </div>
+            <div class="lower-record">
+                <mat-icon class="lower-icon">arrow_upward</mat-icon>
+                <span>{{salesActivity.orderAvgTime}}</span>
+            </div>
+        </mat-card>
+    </ng-container>
+</div>
+

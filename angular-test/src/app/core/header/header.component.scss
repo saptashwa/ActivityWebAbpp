@@ -1,0 +1,26 @@
+// .navbar-container {
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+//     z-index: 2;
+// }
+.example-spacer {
+    flex: 1 0 auto;
+}
+.custom-toolbar {
+    background-color: #009689;
+    color: #fff;
+}
+.avatar {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    .avatar-container {
+        .avatar-content {
+            max-width: 100%;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+        }
+    }
+}   
